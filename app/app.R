@@ -111,21 +111,36 @@ phy <- ape::read.tree('data/pangenome/roary_1617111546/core_gene_alignment.tree.
 # getwd()
 # the actual shinyapp starts here
 ui <- dashboardPage(
-    dashboardHeader(title = "Salmonella virulence factors: dashboard",
+    dashboardHeader(
+                    # Set height of dashboardHeader
+                    # tags$li(class = "dropdown",
+                    #         tags$style(".main-header {max-height: 200px}"),
+                    #         tags$style(".main-header .logo {height: 200px}")),
+                    title = "Salmonella virulence and resistance factors",
                     # tags$li(img(src = "data/izs_logo.jpeg"),
                     #         class = "dropdown")
                     tags$li(a(href = 'http://www.izsfg.it',
-                              img(src = "data/izs_logo.jpeg",
-                                  title = "IZSPB", height = "60px"),
+                              img(src = "izs_logo.jpg",
+                                  title = "IZSPB", height = "90px"),
                               style = "padding-top:10px; padding-bottom:10px;"),
-                            class = "dropdown")
+                            class = "dropdown",
+                            tags$style(".main-header {max-height: 90px}"),
+                            tags$style(".main-header .logo {height: 90px}"))
                     ),
     dashboardSidebar(
+        tags$style(".left-side, .main-sidebar {padding-top: 90px}"),
         sidebarMenu(
             menuItem("Introduction", tabName = "intro", icon = icon("lightbulb")),
-            menuItem("ABRicate", icon = icon("binoculars"),
-                     menuSubItem("ABRicate: overview", tabName = "overview", icon = icon("binoculars")),
-                     menuSubItem("ABRicate: results", icon = icon("th"), tabName = "results")),
+            menuItem("ABRicate", icon = icon("biohazard"),
+                     menuSubItem("ABRicate: overview of hits",
+                                 tabName = "overview_hits",
+                                 icon = icon("binoculars")),
+                     menuSubItem(HTML("ABRicate: overview of<br/>resistance and virulence"),
+                                 tabName = "overview_vf",
+                                 icon = icon("binoculars")),
+                     menuSubItem("ABRicate: all results",
+                                 icon = icon("th"),
+                                 tabName = "results")),
             menuItem("Phylogeny", icon = icon("tree"), tabName = "phylogeny")
             # menuItem("ABRicate: overview", tabName = "overview", icon = icon("binoculars")),
             # menuItem("ABRicate: results", icon = icon("th"), tabName = "results"),
@@ -140,30 +155,70 @@ ui <- dashboardPage(
                         column(12,
                                includeMarkdown("data/introduction.md"))
                     )),
-            tabItem(tabName = "overview", h2("Overview of results"),
+            # tabItem(tabName = "overview_hits", h2("ABRicate: overview of hits"),
+            #         fluidRow(
+            #             box(# wanna align? https://stackoverflow.com/questions/29738975/how-to-align-a-group-of-checkboxgroupinput-in-r-shiny
+            #                 checkboxGroupInput("show_dbs", "DBs to show results for:",
+            #                                    unique(abricate.results$db),
+            #                                    inline = TRUE,
+            #                                    selected = unique(abricate.results$db))
+            #                 )
+            #         )),
+            tabItem(tabName = "overview_hits", h2("ABRicate: overview of hits"),
                     fluidRow(
-                        box(# wanna align? https://stackoverflow.com/questions/29738975/how-to-align-a-group-of-checkboxgroupinput-in-r-shiny
-                            checkboxGroupInput("show_dbs", "DBs to show results for:",
-                                               unique(abricate.results$db),
-                                               inline = TRUE,
-                                               selected = unique(abricate.results$db))),
-                        box(radioButtons(inputId = "show_resistance_dbs",
-                                         label = "DB to show resistance for:",
-                                         inline = TRUE,
-                                         choices = unique(compound.counts$db),
-                                         selected = unique(compound.counts$db)[1])
-                        )
-                    ),
-                    fluidRow(
-                        box(title = "Number of hits per sample (click on a cell to show details about the hits in the table below)",
-                            plotlyOutput("heatmap"), height = 860),
-                        box(title = "Number of resistance hits per sample (click on a cell to display all hits for a cds)",
-                            plotlyOutput("heatmap.compounds"), height = 860),
-                        fluidRow(
-                            box(DT::dataTableOutput("heatmap.genes")),
-                            box(DT::dataTableOutput("heatmap.compound.genes")),
-                        ),
+                        column(width = 6,
+                               box(# wanna align? https://stackoverflow.com/questions/29738975/how-to-align-a-group-of-checkboxgroupinput-in-r-shiny
+                                    width = NULL,
+                                    checkboxGroupInput("show_dbs", "DBs to show results for:",
+                                                       unique(abricate.results$db),
+                                                       inline = TRUE,
+                                                       selected = unique(abricate.results$db))),
+                               box(title = "Number of hits per sample (click on a cell to show details about the hits in the table on the right)",
+                                   width = NULL,
+                                   plotlyOutput("heatmap"))#, height = 860),
+                               ),
+                        column(width = 6,
+                               box(width = NULL,
+                                   DT::dataTableOutput("heatmap.genes"))
+                               )
                     )),
+            tabItem(tabName = "overview_vf", h2("ABRicate: overview of resistance and virulence"),
+                    fluidRow(
+                        column(width = 6,
+                               box(width = NULL,
+                                   radioButtons(inputId = "show_resistance_dbs",
+                                                label = "DB to show resistance for:",
+                                                inline = TRUE,
+                                                choices = unique(compound.counts$db),
+                                                selected = unique(compound.counts$db)[1])
+                                   ),
+                               box(width = NULL,
+                                   title = "Number of resistance hits per sample (click on a cell to display all hits for a cds)",
+                                   plotlyOutput("heatmap.compounds"), height = 860)
+                           ),
+                        column(width = 6,
+                               box(width = NULL,
+                                   DT::dataTableOutput("heatmap.compound.genes"))
+                               )
+                            )
+                    ),
+                    #     box(radioButtons(inputId = "show_resistance_dbs",
+                    #                      label = "DB to show resistance for:",
+                    #                      inline = TRUE,
+                    #                      choices = unique(compound.counts$db),
+                    #                      selected = unique(compound.counts$db)[1])
+                    #     )
+                    # ),
+                    # fluidRow(
+                    #     box(title = "Number of hits per sample (click on a cell to show details about the hits in the table below)",
+                    #         plotlyOutput("heatmap"), height = 860),
+                    #     box(title = "Number of resistance hits per sample (click on a cell to display all hits for a cds)",
+                    #         plotlyOutput("heatmap.compounds"), height = 860),
+                    #     fluidRow(
+                    #         box(DT::dataTableOutput("heatmap.genes")),
+                    #         box(DT::dataTableOutput("heatmap.compound.genes")),
+                    #     ),
+                    # )),
             tabItem(tabName = "results", h2("Results"),
                     fluidRow(
                         column(7,
