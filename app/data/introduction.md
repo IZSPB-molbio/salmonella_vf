@@ -1,5 +1,15 @@
-This dashboard offers a graphical overview of genome screening for antimicrobial resistance and virulence genes in *Salmonella* isolates from serovars Infantis and Napoli, as performed with ABRicate (https://github.com/tseemann/abricate).
+This dashboard offers a graphical overview of genome screening for antimicrobial resistance and virulence genes in *Salmonella enterica* isolates from serovars Infantis and Napoli, as performed with [ABRicate](https://github.com/tseemann/abricate).
 
 The **ABRicate: overview** section offers a summary of resistance and virulence genes found in your genomes.
 
-The **ABRicate: results** reports an interactive table with complete ABRicate results.
+The **ABRicate: results** section reports an interactive table with complete ABRicate results.
+
+The **Phylogeny** section shows a cgSNP-based phylogenetic tree including the following *Salmonella enterica* serovars:
+- Infantis
+- Napoli
+- Enteritidis
+- Typhimurium
+- Virchow
+- Victoria (outgroup)
+
+The multiple sequence alignment used to compute the phylogenetic tree was calculated through the [Roary](https://sanger-pathogens.github.io/Roary/) pangenome pipeline. The phylogenetic tree was calculated with [FastTree](http://www.microbesonline.org/fasttree/).

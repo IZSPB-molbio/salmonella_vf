@@ -147,8 +147,7 @@ ui <- dashboardPage(
                                                unique(abricate.results$db),
                                                inline = TRUE,
                                                selected = unique(abricate.results$db))),
-                        box(
-                            radioButtons(inputId = "show_resistance_dbs",
+                        box(radioButtons(inputId = "show_resistance_dbs",
                                          label = "DB to show resistance for:",
                                          inline = TRUE,
                                          choices = unique(compound.counts$db),
