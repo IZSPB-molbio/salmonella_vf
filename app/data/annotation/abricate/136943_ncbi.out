@@ -1,0 +1,6 @@
+136943	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+136943	PROKKA_02319	70	421	+	tet(34)	70-421/465	..======/=====.	2/2	75.48	72.24	ncbi	NG_048129.1	oxytetracycline resistance phosphoribosyltransferase domain-containing protein Tet(34)	TETRACYCLINE
+136943	PROKKA_03359	1	474	+	dfrA1	1-474/474	===============	0/0	100.00	99.79	ncbi	NG_047677.1	trimethoprim-resistant dihydrofolate reductase DfrA1	TRIMETHOPRIM
+136943	PROKKA_03361	1	840	+	sul1	1-840/840	===============	0/0	100.00	100.00	ncbi	NG_048082.1	sulfonamide-resistant dihydropteroate synthase Sul1	SULFONAMIDE
+136943	PROKKA_03375	1	1200	+	tet(A)	1-1200/1200	===============	0/0	100.00	100.00	ncbi	NG_048154.1	tetracycline efflux MFS transporter Tet(A)	TETRACYCLINE
+136943	PROKKA_04609	1	876	+	blaCTX-M-1	1-876/876	===============	0/0	100.00	100.00	ncbi	NG_048897.1	class A extended-spectrum beta-lactamase CTX-M-1	CEPHALOSPORIN

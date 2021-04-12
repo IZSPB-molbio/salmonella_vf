@@ -1,0 +1,8 @@
+91549	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+91549	PROKKA_01317	1	438	+	aac(6')-Iaa_1	1-438/438	===============	0/0	100.00	97.49	resfinder	NC_003197	aac(6')-Iaa	Amikacin;Tobramycin
+91549	PROKKA_02333	70	421	+	tet(34)_1	70-421/465	..======/=====.	2/2	75.48	72.24	resfinder	AB061440	tet(34)	
+91549	PROKKA_02663	1	1219	+	mdf(A)_1	1-1219/1233	===============	0/0	98.86	79.49	resfinder	Y08743	mdf(A)	
+91549	PROKKA_03287	1	474	+	dfrA1_10	1-474/474	===============	0/0	100.00	99.79	resfinder	AF203818	dfrA1	Trimethoprim
+91549	PROKKA_03289	1	840	+	sul1_2	1-840/840	===============	0/0	100.00	100.00	resfinder	U12338	sul1	Sulfamethoxazole
+91549	PROKKA_03303	1	1200	+	tet(A)_4	1-1200/1200	===============	0/0	100.00	100.00	resfinder	AJ517790	tet(A)	Doxycycline;Tetracycline
+91549	PROKKA_04594	1	876	+	blaCTX-M-1_1	1-876/876	===============	0/0	100.00	100.00	resfinder	DQ915955	blaCTX-M-1	Amoxicillin;Ampicillin;Aztreonam;Cefepime;Cefotaxime;Ceftazidime;Ceftriaxone;Piperacillin;Ticarcillin

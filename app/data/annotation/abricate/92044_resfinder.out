@@ -1,0 +1,13 @@
+92044	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+92044	PROKKA_00834	1	438	+	aac(6')-Iaa_1	1-438/438	===============	0/0	100.00	97.49	resfinder	NC_003197	aac(6')-Iaa	Amikacin;Tobramycin
+92044	PROKKA_02182	1	1219	+	mdf(A)_1	1-1219/1233	===============	0/0	98.86	79.49	resfinder	Y08743	mdf(A)	
+92044	PROKKA_02601	70	421	+	tet(34)_1	70-421/465	..======/=====.	2/2	75.48	72.24	resfinder	AB061440	tet(34)	
+92044	PROKKA_04595	1	861	+	blaTEM-1B_1	1-861/861	===============	0/0	100.00	100.00	resfinder	AY458016	blaTEM-1B	Amoxicillin;Ampicillin;Cephalothin;Piperacillin;Ticarcillin
+92044	PROKKA_04604	1	474	+	dfrA14_4	1-474/474	===============	0/0	100.00	100.00	resfinder	AF393510	dfrA14	Trimethoprim
+92044	PROKKA_04609	1	876	+	blaCTX-M-1_1	1-876/876	===============	0/0	100.00	100.00	resfinder	DQ915955	blaCTX-M-1	Amoxicillin;Ampicillin;Aztreonam;Cefepime;Cefotaxime;Ceftazidime;Ceftriaxone;Piperacillin;Ticarcillin
+92044	PROKKA_04620	1	792	+	sul3_2	1-792/792	===============	0/0	100.00	100.00	resfinder	AJ459418	sul3	Sulfamethoxazole
+92044	PROKKA_04625	1	780	+	aadA2_1	40-819/819	===============	0/0	95.24	100.00	resfinder	NC_010870	aadA2	Streptomycin
+92044	PROKKA_04626	1	1260	+	cmlA1_1	1-1260/1260	===============	0/0	100.00	99.92	resfinder	M64556	cmlA1	Chloramphenicol
+92044	PROKKA_04649	1	804	+	lnu(G)_1	1-804/804	===============	0/0	100.00	100.00	resfinder	KX470419	lnu(G)	Lincomycin
+92044	PROKKA_04653	37	681	+	qnrB19_1	1-645/645	===============	0/0	100.00	100.00	resfinder	EU432277	qnrB19	Ciprofloxacin
+92044	PROKKA_04672	1	816	+	aph(3')-Ia_7	1-816/816	===============	0/0	100.00	100.00	resfinder	X62115	aph(3')-Ia	

@@ -1,0 +1,8 @@
+100535	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+100535	PROKKA_01294	1	438	+	aac(6')-Iaa_1	1-438/438	===============	0/0	100.00	97.49	resfinder	NC_003197	aac(6')-Iaa	Amikacin;Tobramycin
+100535	PROKKA_02419	70	421	+	tet(34)_1	70-421/465	..======/=====.	2/2	75.48	72.24	resfinder	AB061440	tet(34)	
+100535	PROKKA_02583	1	1219	+	mdf(A)_1	1-1219/1233	===============	0/0	98.86	79.49	resfinder	Y08743	mdf(A)	
+100535	PROKKA_04252	1	1260	+	cmlA1_1	1-1260/1260	===============	0/0	100.00	99.92	resfinder	M64556	cmlA1	Chloramphenicol
+100535	PROKKA_04253	1	780	+	aadA2_1	40-819/819	===============	0/0	95.24	100.00	resfinder	NC_010870	aadA2	Streptomycin
+100535	PROKKA_04306	1	861	+	blaTEM-1B_1	1-861/861	===============	0/0	100.00	100.00	resfinder	AY458016	blaTEM-1B	Amoxicillin;Ampicillin;Cephalothin;Piperacillin;Ticarcillin
+100535	PROKKA_04618	1	474	+	dfrA14_4	1-474/474	===============	0/0	100.00	100.00	resfinder	AF393510	dfrA14	Trimethoprim

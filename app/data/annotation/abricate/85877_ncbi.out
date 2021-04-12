@@ -1,0 +1,8 @@
+85877	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+85877	PROKKA_00396	128	432	+	aac(6')_Yersi	122-430/432	...=====/======	4/6	70.37	70.00	ncbi	NG_052200.1	aminoglycoside 6'-N-acetyltransferase	AMINOGLYCOSIDE
+85877	PROKKA_03110	70	421	+	tet(34)	70-421/465	..======/=====.	2/2	75.48	72.81	ncbi	NG_048129.1	oxytetracycline resistance phosphoribosyltransferase domain-containing protein Tet(34)	TETRACYCLINE
+85877	PROKKA_04356	1	816	+	sul2	1-816/816	===============	0/0	100.00	100.00	ncbi	NG_051852.1	sulfonamide-resistant dihydropteroate synthase Sul2	SULFONAMIDE
+85877	PROKKA_04358	10	483	+	dfrA14	1-474/474	===============	0/0	100.00	100.00	ncbi	NG_047696.1	trimethoprim-resistant dihydrofolate reductase DfrA14	TRIMETHOPRIM
+85877	PROKKA_04359	1	837	+	aph(6)-Id	1-837/837	===============	0/0	100.00	100.00	ncbi	NG_047464.1	aminoglycoside O-phosphotransferase APH(6)-Id	STREPTOMYCIN
+85877	PROKKA_04362	1	1200	+	tet(A)	1-1200/1200	===============	0/0	100.00	99.92	ncbi	NG_048153.1	tetracycline efflux MFS transporter Tet(A)	TETRACYCLINE
+85877	PROKKA_04390	37	681	+	qnrB19	1-645/645	===============	0/0	100.00	100.00	ncbi	NG_050479.1	quinolone resistance pentapeptide repeat protein QnrB19	QUINOLONE

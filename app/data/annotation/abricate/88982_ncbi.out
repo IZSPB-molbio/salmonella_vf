@@ -1,0 +1,6 @@
+88982	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+88982	PROKKA_01068	70	421	+	tet(34)	70-421/465	..======/=====.	2/2	75.48	72.24	ncbi	NG_048129.1	oxytetracycline resistance phosphoribosyltransferase domain-containing protein Tet(34)	TETRACYCLINE
+88982	PROKKA_03389	1	780	+	aadA1	13-792/792	===============	0/0	98.48	100.00	ncbi	NG_052454.1	ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1	STREPTOMYCIN
+88982	PROKKA_03391	1	840	+	sul1	1-840/840	===============	0/0	100.00	100.00	ncbi	NG_048082.1	sulfonamide-resistant dihydropteroate synthase Sul1	SULFONAMIDE
+88982	PROKKA_03407	1	1200	+	tet(A)	1-1200/1200	===============	0/0	100.00	100.00	ncbi	NG_048154.1	tetracycline efflux MFS transporter Tet(A)	TETRACYCLINE
+88982	PROKKA_04596	1	474	+	dfrA14	1-474/474	===============	0/0	100.00	100.00	ncbi	NG_047696.1	trimethoprim-resistant dihydrofolate reductase DfrA14	TRIMETHOPRIM

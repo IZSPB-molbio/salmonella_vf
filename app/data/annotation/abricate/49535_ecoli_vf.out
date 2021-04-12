@@ -1,0 +1,95 @@
+49535	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+49535	PROKKA_00015	31	2087	+	cadA	70-2126/2176	========/======	10/18	94.12	69.56	ecoli_vf	SPG000027	gb|AY319765.1|:1081-3256 Escherichia coli cadBA operon partial sequence	
+49535	PROKKA_00107	1	438	+	ppdD	1-441/441	========/======	3/5	99.09	80.54	ecoli_vf	gi:15799792	putative major pilin subunit	
+49535	PROKKA_00108	78	1378	+	hofB	78-1378/1386	========/======	8/24	93.00	70.98	ecoli_vf	gi:15799791	hypothetical protein	
+49535	PROKKA_00109	151	1203	+	hofC	151-1203/1203	.=======/======	8/12	87.03	71.20	ecoli_vf	gi:15799790	type IV pilin biogenesis protein	
+49535	PROKKA_00871	1	948	+	flgL	1-948/954	========/======	2/2	99.27	76.29	ecoli_vf	gi:15801200	flagellar hook-associated protein FlgL	
+49535	PROKKA_00872	1	1662	+	flgK	1-1644/1644	========/======	17/50	99.03	74.31	ecoli_vf	gi:15801199	flagellar hook-associated protein FlgK	
+49535	PROKKA_00873	1	947	+	flgJ	1-938/942	========/======	2/9	99.58	78.04	ecoli_vf	gi:15801198	flagellar rod assembly protein/muramidase FlgJ	
+49535	PROKKA_00874	1	1098	+	flgI	1-1098/1098	========/======	2/6	99.73	79.66	ecoli_vf	gi:15801197	flagellar basal body P-ring protein	
+49535	PROKKA_00875	22	666	+	flgH	55-699/699	.==============	0/0	92.27	81.70	ecoli_vf	gi:15801196	flagellar basal body L-ring protein	
+49535	PROKKA_00876	1	783	+	flgG	1-783/783	===============	0/0	100.00	85.95	ecoli_vf	gi:15801195	flagellar basal body rod protein FlgG	
+49535	PROKKA_00877	1	756	+	flgF	1-756/756	========/======	2/4	99.74	77.57	ecoli_vf	gi:15801194	flagellar basal body rod protein FlgF	
+49535	PROKKA_00878	1	1212	+	flgE	1-1206/1206	========/======	5/10	99.83	78.91	ecoli_vf	gi:15801193	flagellar hook protein FlgE	
+49535	PROKKA_00879	1	699	+	flgD	1-696/696	========/======	1/3	100.00	75.54	ecoli_vf	gi:15801192	flagellar basal body rod modification protein	
+49535	PROKKA_00880	2	405	+	flgC	2-405/405	===============	0/0	99.75	79.70	ecoli_vf	gi:15801191	flagellar basal body rod protein FlgC	
+49535	PROKKA_00881	1	417	+	flgB	1-417/417	===============	0/0	100.00	76.02	ecoli_vf	gi:15801190	flagellar basal body rod protein FlgB	
+49535	PROKKA_00882	142	660	+	flgA	142-660/660	...=====/======	5/18	77.27	72.35	ecoli_vf	gi:15801189	flagellar basal body P-ring biosynthesis protein FlgA	
+49535	PROKKA_00884	1	421	+	flgN	1-415/417	========/======	5/12	98.80	73.11	ecoli_vf	gi:15801187	flagella synthesis protein FlgN	
+49535	PROKKA_00910	1	321	+	csgC	1-321/333	========/======	5/6	95.50	74.38	ecoli_vf	gi:15801160	putative autoagglutination protein	
+49535	PROKKA_00911	1	456	+	csgA	1-459/459	========/======	1/3	99.35	73.20	ecoli_vf	gi:15801159	cryptic curlin major subunit	
+49535	PROKKA_00912	13	495	+	csgB	1-483/483	========/======	2/2	99.79	84.71	ecoli_vf	VFG045792	minor curlin subunit CsgB	
+49535	PROKKA_00913	1	651	+	csgD	1-651/651	===============	0/0	100.00	82.03	ecoli_vf	gi:15801157	DNA-binding transcriptional regulator CsgD	
+49535	PROKKA_00914	1	396	+	csgE	1-390/390	========/======	1/6	100.00	79.29	ecoli_vf	gi:15801156	curli assembly protein CsgE	
+49535	PROKKA_00915	1	417	+	csgF	1-417/417	========/======	3/8	99.04	81.23	ecoli_vf	gi:15801155	curli assembly protein CsgF	
+49535	PROKKA_00916	1	834	+	csgG	1-834/834	===============	0/0	100.00	83.33	ecoli_vf	gi:15801154	curli production assembly/transport component 2nd curli operon	
+49535	PROKKA_00928	11	318	+	ppdc	11-318/324	========/======	2/2	94.75	74.76	ecoli_vf	SPG000140	Pilin-like protein minor pilin or pseudopilin Adherence Hemorrhagic coli pilus	
+49535	PROKKA_00930	19	564	+	ppdb	19-564/564	===============	0/0	96.81	69.23	ecoli_vf	SPG000112	Pilin-like protein minor pilin or pseudo pilin Adherence Hemorrhagic coli pilus	
+49535	PROKKA_00931	1	440	+	ppda	1-440/471	========/======	4/4	92.99	71.49	ecoli_vf	SPG000131	Pilin-like protein minor pilin or pseudo pilin Adherence Hemorrhagic coli pilus	
+49535	PROKKA_01040	1	938	+	yggr	1-938/981	========/======	4/12	95.01	75.21	ecoli_vf	SPG000074	Retraction ATPase Adherence Hemorrhagic coli pilus	
+49535	PROKKA_01165	13	1623	+	nadb	13-1623/1623	========/======	2/2	99.20	80.33	ecoli_vf	SPG000049	Escherichia coli str. K-12 substr. MG1655 complete genome	
+49535	PROKKA_01193	1	2133	+	cadA	40-2172/2176	===============	0/0	98.02	82.98	ecoli_vf	SPG000027	gb|AY319765.1|:1081-3256 Escherichia coli cadBA operon partial sequence	
+49535	PROKKA_01730	1	2886	+	ehaB	1-2889/2889	========/======	22/55	99.00	77.53	ecoli_vf	gi:218693832	flagellin structural protein; protein	
+49535	PROKKA_02079	28	391	+	flhE	28-391/393	.==============	0/0	92.62	68.96	ecoli_vf	gi:15802290	flagellar protein	
+49535	PROKKA_02080	6	2077	+	flhA	6-2077/2079	===============	0/0	99.66	82.19	ecoli_vf	gi:15802291	flagellar biosynthesis protein FlhA	
+49535	PROKKA_02081	1	1136	+	flhB	1-1133/1149	========/======	1/3	98.61	80.19	ecoli_vf	gi:15802292	flagellar biosynthesis protein FlhB	
+49535	PROKKA_02082	4	646	+	cheZ	1-643/645	===============	0/0	99.69	82.43	ecoli_vf	gi:15802293	chemotaxis regulator CheZ	
+49535	PROKKA_02083	1	390	+	cheY	1-390/390	===============	0/0	100.00	82.82	ecoli_vf	gi:15802294	chemotaxis regulatory protein CheY	
+49535	PROKKA_02084	1	1048	+	cheB	1-1048/1050	===============	0/0	99.81	82.16	ecoli_vf	gi:15802295	chemotaxis-specific methylesterase	
+49535	PROKKA_02085	1	861	+	cheR	1-861/861	===============	0/0	100.00	80.37	ecoli_vf	gi:15802296	chemotaxis methyltransferase CheR	
+49535	PROKKA_02086	1	1548	+	tar/cheM	1-1548/1662	========/======	2/2	93.08	76.63	ecoli_vf	gi:15802298	methyl-accepting chemotaxis protein II	
+49535	PROKKA_02087	1	504	+	cheW	1-504/504	===============	0/0	100.00	80.56	ecoli_vf	gi:15802299	purine-binding chemotaxis protein	
+49535	PROKKA_02088	1	2016	+	cheA	1-1965/1965	========/======	14/61	99.75	76.79	ecoli_vf	gi:15802300	chemotaxis protein CheA	
+49535	PROKKA_02089	1	930	+	motB	1-927/927	========/======	2/3	100.00	79.78	ecoli_vf	gi:15802301	flagellar motor protein MotB	
+49535	PROKKA_02090	1	888	+	motA	1-888/888	===============	0/0	100.00	83.11	ecoli_vf	gi:15802302	flagellar motor protein MotA	
+49535	PROKKA_02091	1	579	+	flhC	1-579/579	===============	0/0	100.00	81.35	ecoli_vf	gi:15802303	transcriptional activator FlhC	
+49535	PROKKA_02092	1	311	+	flhD	10-320/360	==============.	0/0	86.39	80.06	ecoli_vf	gi:15802304	transcriptional activator FlhD	
+49535	PROKKA_02118	1	801	+	fliY	1-801/801	===============	0/0	100.00	83.77	ecoli_vf	gi:15802355	cystine transporter subunit	
+49535	PROKKA_02119	1	486	+	fliZ	37-522/588	==============.	0/0	82.65	78.60	ecoli_vf	gi:15802356	flagella biosynthesis protein FliZ	
+49535	PROKKA_02120	1	719	+	fliA	1-719/720	===============	0/0	99.86	85.81	ecoli_vf	gi:15802357	flagellar biosynthesis sigma factor	
+49535	PROKKA_02131	1	314	+	fliE	1-314/315	===============	0/0	99.68	80.89	ecoli_vf	gi:15802372	flagellar hook-basal body protein FliE	
+49535	PROKKA_02132	17	1683	+	fliF	8-1659/1659	========/======	6/21	99.40	78.26	ecoli_vf	gi:15802373	flagellar MS-ring protein	
+49535	PROKKA_02133	1	994	+	fliG	1-994/996	===============	0/0	99.80	86.72	ecoli_vf	gi:15802374	flagellar motor switch protein G	
+49535	PROKKA_02134	142	702	+	fliH	121-681/687	..=============	0/0	81.66	78.79	ecoli_vf	gi:161367588	flagellar assembly protein H	
+49535	PROKKA_02135	1	1369	+	fliI	1-1369/1374	========/======	3/4	99.49	80.89	ecoli_vf	gi:161367587	flagellum-specific ATP synthase	
+49535	PROKKA_02136	1	444	+	fliJ	1-444/444	===============	0/0	100.00	81.76	ecoli_vf	gi:15802377	flagellar biosynthesis chaperone	
+49535	PROKKA_02138	1	468	+	fliL	1-465/465	========/======	6/13	98.92	77.80	ecoli_vf	gi:15802379	flagellar basal body-associated protein FliL	
+49535	PROKKA_02139	1	1005	+	fliM	1-1005/1005	===============	0/0	100.00	85.57	ecoli_vf	gi:15802380	flagellar motor switch protein FliM	
+49535	PROKKA_02140	1	413	+	fliN	1-413/414	===============	0/0	99.76	84.50	ecoli_vf	gi:15802381	flagellar motor switch protein FliN	
+49535	PROKKA_02142	33	738	+	fliP	33-738/738	===============	0/0	95.66	81.30	ecoli_vf	gi:15802383	flagellar biosynthesis protein FliP	
+49535	PROKKA_02143	1	269	+	fliQ	1-269/270	===============	0/0	99.63	82.16	ecoli_vf	gi:15802384	flagellar biosynthesis protein FliQ	
+49535	PROKKA_02144	1	784	+	fliR	1-783/786	========/======	1/1	99.62	77.17	ecoli_vf	gi:15802385	flagellar biosynthesis protein FliR	
+49535	PROKKA_02256	1	1190	+	hofq	37-1226/1239	===============	0/0	96.05	77.81	ecoli_vf	SPG000051	Outer membrane secretin Adherence Hemorrhagic coli pilus	
+49535	PROKKA_02423	75	858	+	sitA	75-858/915	.=======/======	4/10	85.14	75.03	ecoli_vf	gi:387606979	iron ABC transporter substrate-binding protein	
+49535	PROKKA_02424	1	783	+	sitB	1-786/828	========/======	6/11	94.08	72.66	ecoli_vf	gi:88770313	SitB	
+49535	PROKKA_02425	1	830	+	sitC	1-830/858	===============	0/0	96.74	74.82	ecoli_vf	gi:386598999	iron chelate ABC transporter permease protein	
+49535	PROKKA_02426	16	657	+	sitD	10-651/855	========/===...	2/2	74.97	69.52	ecoli_vf	gi:387606976	iron ABC transporter permease	
+49535	PROKKA_02451	1	207	+	epaQ	1-207/261	============...	0/0	79.31	71.01	ecoli_vf	gi:15832978	EpaQ	
+49535	PROKKA_02452	29	663	+	epaP	29-648/666	========/======	6/19	92.79	67.82	ecoli_vf	gi:15832979	surface presentation of antigens protein SpaP	
+49535	PROKKA_02616	1	732	+	artj	1-732/732	========/======	2/2	99.86	80.76	ecoli_vf	SPG000096	E.coli artP artI artQ artM and artJ genes.	
+49535	PROKKA_02619	89	673	+	artj	89-673/732	.=======/=====.	2/2	79.78	70.99	ecoli_vf	SPG000096	E.coli artP artI artQ artM and artJ genes.	
+49535	PROKKA_02718	93	1002	+	nleB1	84-987/990	.=======/======	21/36	89.80	65.51	ecoli_vf	gi:15803520	Type III secretion system effector nleB1	
+49535	PROKKA_03215	1	1733	+	ibeC	1-1733/1734	===============	0/0	99.94	80.90	ecoli_vf	gi:161486035	hypothetical protein	
+49535	PROKKA_03356	1	2256	+	fepA	1-2241/2241	========/======	15/49	99.24	78.58	ecoli_vf	gi:26246561	ferrienterobactin outer membrane transporter	
+49535	PROKKA_03357	22	1203	+	fes	19-1188/1203	========/======	8/20	96.92	72.51	ecoli_vf	gi:26246563	enterobactin/ferric enterobactin esterase	
+49535	PROKKA_03359	1	3833	+	entF	1-3830/3882	========/======	20/41	98.17	74.27	ecoli_vf	gi:26246565	enterobactin synthase multienzyme complex component ATP-dependent	
+49535	PROKKA_03360	74	1087	+	fepE	74-1090/1134	========/======	5/9	89.15	72.45	ecoli_vf	gi:26246566	ferric enterobactin transport protein FepE	
+49535	PROKKA_03361	1	788	+	fepC	1-788/816	========/======	2/2	96.45	80.48	ecoli_vf	gi:26246567	ferrienterobactin ABC transporter ATPase	
+49535	PROKKA_03362	82	990	+	fepG	85-993/993	.==============	0/0	91.54	80.31	ecoli_vf	gi:26246568	iron-enterobactin ABC transporter permease	
+49535	PROKKA_03363	1	990	+	fepD	13-1002/1017	===============	0/0	97.35	78.18	ecoli_vf	gi:26246569	ferrienterobactin ABC transporter permease	
+49535	PROKKA_03364	1	1227	+	entS	1-1227/1251	===============	0/0	98.08	78.65	ecoli_vf	gi:26246570	enterobactin exporter iron-regulated	
+49535	PROKKA_03365	53	920	+	fepB	53-920/957	===============	0/0	90.70	76.96	ecoli_vf	gi:26246571	ferrienterobactin ABC transporter periplasmic binding protein	
+49535	PROKKA_03366	1	1176	+	entC	13-1188/1188	========/======	4/4	98.82	78.01	ecoli_vf	gi:26246572	isochorismate synthase 1	
+49535	PROKKA_03367	1	1598	+	entE	1-1598/1611	========/======	4/4	99.07	79.75	ecoli_vf	gi:26246573	23-dihydroxybenzoate-AMP ligase component of enterobactin synthase multienzyme complex	
+49535	PROKKA_03368	1	851	+	entB	1-851/858	===============	0/0	99.18	80.14	ecoli_vf	gi:26246574	isochorismatase	
+49535	PROKKA_03369	25	752	+	entA	16-743/747	===============	0/0	97.46	79.67	ecoli_vf	gi:26246575	23-dihydro-23-dihydroxybenzoate dehydrogenase	
+49535	PROKKA_03489	1	1101	+	iroB	49-1149/1164	===============	0/0	94.59	78.29	ecoli_vf	gi:26247128	glucosyltransferase IroB	
+49535	PROKKA_03490	1	3621	+	iroC	79-3687/3738	========/======	18/36	96.23	76.05	ecoli_vf	gi:110640511	putative ATP binding cassette (ABC) transporter	
+49535	PROKKA_03491	92	1223	+	iroD	80-1208/1230	========/======	10/23	90.98	70.67	ecoli_vf	gi:91210149	IroD protein	
+49535	PROKKA_03492	78	906	+	iroE	90-915/957	.=======/======	10/17	85.58	69.26	ecoli_vf	gi:26247125	esterase	
+49535	PROKKA_03493	1	2175	+	iroN	1-2178/2178	========/======	5/7	99.77	77.57	ecoli_vf	gi:110640508	TonB dependent outer membrane siderophore receptor	
+49535	PROKKA_03612	1	885	+	ECS88_3547	1-885/885	===============	0/0	100.00	94.46	ecoli_vf	gi:218560235	lipoprotein NlpI	
+49535	PROKKA_03700	1	1053	+	ompA	1-1041/1041	========/======	1/12	100.00	89.65	ecoli_vf	gi:7188818	outer membrane protein A	
+49535	PROKKA_03924	1	525	+	fimI	1-525/525	===============	0/0	100.00	73.71	ecoli_vf	gi:410480369	long polar fimbrial protein LpfA	
+49535	PROKKA_04209	90	993	+	nleB1	84-987/990	.=======/======	8/18	90.40	68.13	ecoli_vf	gi:15803520	Type III secretion system effector nleB1	
+49535	PROKKA_04345	1	1037	+	nada	1-1037/1044	========/======	2/2	99.23	77.07	ecoli_vf	SPG000048	Escherichia coli str. K-12 substr. MG1655 complete genome	

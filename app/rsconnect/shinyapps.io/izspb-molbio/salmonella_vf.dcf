@@ -1,0 +1,12 @@
+name: salmonella_vf
+title: salmonella_vf
+username:
+account: izspb-molbio
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3941528
+bundleId: 4455523
+url: https://izspb-molbio.shinyapps.io/salmonella_vf/
+when: 1618090834.35684
+asMultiple: FALSE
+asStatic: FALSE

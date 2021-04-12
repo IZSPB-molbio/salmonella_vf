@@ -1,0 +1,15 @@
+92044	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+92044	PROKKA_00834	1	438	+	(AGly)aac6-Iy	1-438/438	===============	0/0	100.00	97.94	argannot	AF144880:3452-3979	(AGly)aac6-Iy	
+92044	PROKKA_01743	130	1285	+	(Bla)AmpC1_Ecoli	130-1285/1305	.==============	0/0	88.58	71.19	argannot	FN649414:2765051-2766355	(Bla)AmpC1_Ecoli	
+92044	PROKKA_02544	1	1158	+	(Bla)ampH_Ecoli	1-1158/1158	===============	0/0	100.00	79.97	argannot	AP012030:395554-396711	(Bla)ampH_Ecoli	
+92044	PROKKA_02601	70	421	+	(Tet)tet(34)	70-421/465	..======/=====.	2/2	75.48	72.24	argannot	AB061440:306-770	(Tet)tet(34)	
+92044	PROKKA_02957	1	1902	+	(Bla)Penicillin_Binding_Protein_Ecoli	1-1902/1902	===============	0/0	100.00	83.23	argannot	CP002291:664439-666340	(Bla)Penicillin_Binding_Protein_Ecoli	
+92044	PROKKA_04595	1	861	+	(Bla)blaTEM-105	1-861/861	===============	0/0	100.00	99.88	argannot	AF516720:215-1075	(Bla)blaTEM-105	
+92044	PROKKA_04604	1	474	+	(Tmt)dfrA14	1-474/474	===============	0/0	100.00	99.79	argannot	GU726917:72-545	(Tmt)dfrA14	
+92044	PROKKA_04609	1	876	+	(Bla)blaCTX-M-1	1-876/876	===============	0/0	100.00	100.00	argannot	X92506:63-938	(Bla)blaCTX-M-1	
+92044	PROKKA_04620	1	792	+	(Sul)sul3	1-792/792	===============	0/0	100.00	100.00	argannot	HQ875016:7396-8187	(Sul)sul3	
+92044	PROKKA_04625	1	780	+	(AGly)aadA2	1-780/780	===============	0/0	100.00	100.00	argannot	X68227:66-945	(AGly)aadA2	
+92044	PROKKA_04626	1	1260	+	(Phe)cmlA1	1-1260/1260	===============	0/0	100.00	99.92	argannot	M64556:601-1860	(Phe)cmlA1	
+92044	PROKKA_04649	2	803	+	(MLS)lnu((B)	2-803/804	===============	0/0	99.75	77.31	argannot	KC688833:1-804	(MLS)lnu((B)	
+92044	PROKKA_04653	1	681	+	(Flq)qnrB5	1-681/681	===============	0/0	100.00	99.12	argannot	DQ303919:1-681	(Flq)qnrB5	
+92044	PROKKA_04672	1	816	+	(AGly)aph(3'')-Ia	1-816/816	===============	0/0	100.00	100.00	argannot	FJ172370:38668-39483	(AGly)aph(3'')-Ia	

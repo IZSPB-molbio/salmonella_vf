@@ -1,0 +1,5 @@
+113879	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+113879	PROKKA_01333	1	1902	+	(Bla)Penicillin_Binding_Protein_Ecoli	1-1902/1902	===============	0/0	100.00	83.54	argannot	CP002291:664439-666340	(Bla)Penicillin_Binding_Protein_Ecoli	
+113879	PROKKA_01499	1	1158	+	(Bla)ampH_Ecoli	1-1158/1158	===============	0/0	100.00	80.22	argannot	AP012030:395554-396711	(Bla)ampH_Ecoli	
+113879	PROKKA_01512	400	1775	+	(Bla)Penicillin_Binding_Protein_Ecoli	412-1784/1902	...=====/======	18/45	71.08	65.50	argannot	CP002291:664439-666340	(Bla)Penicillin_Binding_Protein_Ecoli	
+113879	PROKKA_03759	70	421	+	(Tet)tet(34)	70-421/465	..======/=====.	2/2	75.48	72.52	argannot	AB061440:306-770	(Tet)tet(34)	

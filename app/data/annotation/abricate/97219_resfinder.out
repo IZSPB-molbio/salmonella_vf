@@ -1,0 +1,11 @@
+97219	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+97219	PROKKA_00925	1	438	+	aac(6')-Iaa_1	1-438/438	===============	0/0	100.00	97.49	resfinder	NC_003197	aac(6')-Iaa	Amikacin;Tobramycin
+97219	PROKKA_02268	70	421	+	tet(34)_1	70-421/465	..======/=====.	2/2	75.48	72.24	resfinder	AB061440	tet(34)	
+97219	PROKKA_02552	1	1219	+	mdf(A)_1	1-1219/1233	===============	0/0	98.86	79.49	resfinder	Y08743	mdf(A)	
+97219	PROKKA_04603	1	498	+	dfrA12_8	1-498/498	===============	0/0	100.00	99.80	resfinder	AM040708	dfrA12	Trimethoprim
+97219	PROKKA_04604	1	780	+	aadA2_1	40-819/819	===============	0/0	95.24	100.00	resfinder	NC_010870	aadA2	Streptomycin
+97219	PROKKA_04605	1	1260	+	cmlA1_1	1-1260/1260	===============	0/0	100.00	99.92	resfinder	M64556	cmlA1	Chloramphenicol
+97219	PROKKA_04606	1	780	+	aadA1_3	13-792/792	===============	0/0	98.48	100.00	resfinder	JQ414041	aadA1	Streptomycin
+97219	PROKKA_04609	1	792	+	sul3_2	1-792/792	===============	0/0	100.00	100.00	resfinder	AJ459418	sul3	Sulfamethoxazole
+97219	PROKKA_04614	1	1230	+	mef(B)_1	1-1230/1230	===============	0/0	100.00	100.00	resfinder	FJ196385	mef(B)	Erythromycin;Azithromycin
+97219	PROKKA_04663	1	861	+	blaTEM-1B_1	1-861/861	===============	0/0	100.00	100.00	resfinder	AY458016	blaTEM-1B	Amoxicillin;Ampicillin;Cephalothin;Piperacillin;Ticarcillin

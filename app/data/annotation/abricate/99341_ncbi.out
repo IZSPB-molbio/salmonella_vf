@@ -1,0 +1,3 @@
+99341	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+99341	PROKKA_03113	70	421	+	tet(34)	70-421/465	..======/=====.	2/2	75.48	72.52	ncbi	NG_048129.1	oxytetracycline resistance phosphoribosyltransferase domain-containing protein Tet(34)	TETRACYCLINE
+99341	PROKKA_04102	121	430	+	aac(6')_Yersi	115-428/432	...=====/======	4/6	71.53	69.52	ncbi	NG_052200.1	aminoglycoside 6'-N-acetyltransferase	AMINOGLYCOSIDE

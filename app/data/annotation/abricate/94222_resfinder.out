@@ -1,0 +1,9 @@
+94222	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+94222	PROKKA_00237	70	421	+	tet(34)_1	70-421/465	..======/=====.	2/2	75.48	72.24	resfinder	AB061440	tet(34)	
+94222	PROKKA_00451	1	438	+	aac(6')-Iaa_1	1-438/438	===============	0/0	100.00	97.49	resfinder	NC_003197	aac(6')-Iaa	Amikacin;Tobramycin
+94222	PROKKA_02751	1	1219	+	mdf(A)_1	1-1219/1233	===============	0/0	98.86	79.49	resfinder	Y08743	mdf(A)	
+94222	PROKKA_03466	1	1200	+	tet(A)_4	1-1200/1200	===============	0/0	100.00	100.00	resfinder	AJ517790	tet(A)	Doxycycline;Tetracycline
+94222	PROKKA_03482	1	840	+	sul1_2	1-840/840	===============	0/0	100.00	100.00	resfinder	U12338	sul1	Sulfamethoxazole
+94222	PROKKA_03484	1	780	+	ant(3'')-Ia_1	193-972/972	..=============	0/0	80.25	100.00	resfinder	X02340	ant(3'')-Ia	Streptomycin
+94222	PROKKA_04594	1	474	+	dfrA14_4	1-474/474	===============	0/0	100.00	100.00	resfinder	AF393510	dfrA14	Trimethoprim
+94222	PROKKA_04626	1	816	+	aph(3')-Ia_7	1-816/816	===============	0/0	100.00	100.00	resfinder	X62115	aph(3')-Ia	

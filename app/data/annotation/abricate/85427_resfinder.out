@@ -1,0 +1,7 @@
+85427	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+85427	PROKKA_00882	1	438	+	aac(6')-Iaa_1	1-438/438	===============	0/0	100.00	97.49	resfinder	NC_003197	aac(6')-Iaa	Amikacin;Tobramycin
+85427	PROKKA_02231	70	421	+	tet(34)_1	70-421/465	..======/=====.	2/2	75.48	72.24	resfinder	AB061440	tet(34)	
+85427	PROKKA_02536	1	1219	+	mdf(A)_1	1-1219/1233	===============	0/0	98.86	79.49	resfinder	Y08743	mdf(A)	
+85427	PROKKA_03424	1	1200	+	tet(A)_4	1-1200/1200	===============	0/0	100.00	100.00	resfinder	AJ517790	tet(A)	Doxycycline;Tetracycline
+85427	PROKKA_03440	1	840	+	sul1_2	1-840/840	===============	0/0	100.00	100.00	resfinder	U12338	sul1	Sulfamethoxazole
+85427	PROKKA_03442	1	780	+	ant(3'')-Ia_1	193-972/972	..=============	0/0	80.25	100.00	resfinder	X02340	ant(3'')-Ia	Streptomycin

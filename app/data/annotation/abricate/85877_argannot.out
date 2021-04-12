@@ -1,0 +1,13 @@
+85877	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+85877	PROKKA_00396	1	438	+	(AGly)aac6-Iy	1-438/438	===============	0/0	100.00	98.17	argannot	AF144880:3452-3979	(AGly)aac6-Iy	
+85877	PROKKA_01141	400	1775	+	(Bla)Penicillin_Binding_Protein_Ecoli	412-1784/1902	...=====/======	17/41	71.19	65.38	argannot	CP002291:664439-666340	(Bla)Penicillin_Binding_Protein_Ecoli	
+85877	PROKKA_02310	130	1285	+	(Bla)AmpC1_Ecoli	130-1285/1305	.=======/======	2/2	88.51	71.31	argannot	FN649414:2765051-2766355	(Bla)AmpC1_Ecoli	
+85877	PROKKA_03110	70	421	+	(Tet)tet(34)	70-421/465	..======/=====.	2/2	75.48	72.81	argannot	AB061440:306-770	(Tet)tet(34)	
+85877	PROKKA_03178	1	1158	+	(Bla)ampH_Ecoli	1-1158/1158	===============	0/0	100.00	80.48	argannot	AP012030:395554-396711	(Bla)ampH_Ecoli	
+85877	PROKKA_03338	1	1902	+	(Bla)Penicillin_Binding_Protein_Ecoli	1-1902/1902	===============	0/0	100.00	82.91	argannot	CP002291:664439-666340	(Bla)Penicillin_Binding_Protein_Ecoli	
+85877	PROKKA_04356	1	816	+	(Sul)sul2	1-816/816	===============	0/0	100.00	100.00	argannot	EU360945:1617-2432	(Sul)sul2	
+85877	PROKKA_04358	10	483	+	(Tmt)dfrA14	1-474/474	===============	0/0	100.00	99.79	argannot	GU726917:72-545	(Tmt)dfrA14	
+85877	PROKKA_04359	1	837	+	(AGly)strB	1-837/837	===============	0/0	100.00	100.00	argannot	FJ474091:264-1100	(AGly)strB	
+85877	PROKKA_04361	28	678	+	(Tet)tetR	1-651/651	===============	0/0	100.00	100.00	argannot	HF545434:53576-54226	(Tet)tetR	
+85877	PROKKA_04362	1	1172	+	(Tet)tetA	76-1247/1275	===============	0/0	91.92	99.92	argannot	JX424423:94438-95712	(Tet)tetA	
+85877	PROKKA_04390	1	681	+	(Flq)qnrB5	1-681/681	===============	0/0	100.00	99.12	argannot	DQ303919:1-681	(Flq)qnrB5	

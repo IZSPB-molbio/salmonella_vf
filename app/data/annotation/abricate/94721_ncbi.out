@@ -1,0 +1,9 @@
+94721	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+94721	PROKKA_02191	70	421	+	tet(34)	70-421/465	..======/=====.	2/2	75.48	72.24	ncbi	NG_048129.1	oxytetracycline resistance phosphoribosyltransferase domain-containing protein Tet(34)	TETRACYCLINE
+94721	PROKKA_04584	1	1230	+	mef(B)	1-1230/1230	===============	0/0	100.00	100.00	ncbi	NG_047978.1	macrolide efflux MFS transporter Mef(B)	MACROLIDE
+94721	PROKKA_04589	1	792	+	sul3	1-792/792	===============	0/0	100.00	100.00	ncbi	NG_048120.1	sulfonamide-resistant dihydropteroate synthase Sul3	SULFONAMIDE
+94721	PROKKA_04592	1	780	+	aadA1	13-792/792	===============	0/0	98.48	100.00	ncbi	NG_047325.1	ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1	STREPTOMYCIN
+94721	PROKKA_04593	1	1260	+	cmlA1	1-1260/1260	===============	0/0	100.00	99.92	ncbi	NG_047648.1	chloramphenicol efflux MFS transporter CmlA1	CHLORAMPHENICOL
+94721	PROKKA_04594	1	780	+	aadA2	13-792/792	===============	0/0	98.48	100.00	ncbi	NG_051846.1	ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA2	STREPTOMYCIN
+94721	PROKKA_04595	1	498	+	dfrA12	1-498/498	===============	0/0	100.00	99.80	ncbi	NG_047689.1	trimethoprim-resistant dihydrofolate reductase DfrA12	TRIMETHOPRIM
+94721	PROKKA_04669	1	861	+	blaTEM-1	1-861/861	===============	0/0	100.00	100.00	ncbi	NG_050145.1	class A broad-spectrum beta-lactamase TEM-1	BETA-LACTAM

@@ -1,0 +1,11 @@
+92044	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+92044	PROKKA_02601	70	421	+	tet(34)	70-421/465	..======/=====.	2/2	75.48	72.24	ncbi	NG_048129.1	oxytetracycline resistance phosphoribosyltransferase domain-containing protein Tet(34)	TETRACYCLINE
+92044	PROKKA_04595	1	861	+	blaTEM-1	1-861/861	===============	0/0	100.00	100.00	ncbi	NG_050145.1	class A broad-spectrum beta-lactamase TEM-1	BETA-LACTAM
+92044	PROKKA_04604	1	474	+	dfrA14	1-474/474	===============	0/0	100.00	100.00	ncbi	NG_047696.1	trimethoprim-resistant dihydrofolate reductase DfrA14	TRIMETHOPRIM
+92044	PROKKA_04609	1	876	+	blaCTX-M-1	1-876/876	===============	0/0	100.00	100.00	ncbi	NG_048897.1	class A extended-spectrum beta-lactamase CTX-M-1	CEPHALOSPORIN
+92044	PROKKA_04620	1	792	+	sul3	1-792/792	===============	0/0	100.00	100.00	ncbi	NG_048120.1	sulfonamide-resistant dihydropteroate synthase Sul3	SULFONAMIDE
+92044	PROKKA_04625	1	780	+	aadA2	13-792/792	===============	0/0	98.48	100.00	ncbi	NG_051846.1	ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA2	STREPTOMYCIN
+92044	PROKKA_04626	1	1260	+	cmlA1	1-1260/1260	===============	0/0	100.00	99.92	ncbi	NG_047648.1	chloramphenicol efflux MFS transporter CmlA1	CHLORAMPHENICOL
+92044	PROKKA_04649	1	804	+	lnu(G)	1-804/804	===============	0/0	100.00	100.00	ncbi	NG_051760.1	lincosamide nucleotidyltransferase Lnu(G)	LINCOSAMIDE
+92044	PROKKA_04653	37	681	+	qnrB19	1-645/645	===============	0/0	100.00	100.00	ncbi	NG_050479.1	quinolone resistance pentapeptide repeat protein QnrB19	QUINOLONE
+92044	PROKKA_04672	1	816	+	aph(3')-Ia	1-816/816	===============	0/0	100.00	100.00	ncbi	NG_047431.1	aminoglycoside O-phosphotransferase APH(3')-Ia	KANAMYCIN

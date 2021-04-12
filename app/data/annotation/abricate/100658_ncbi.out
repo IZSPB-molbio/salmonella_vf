@@ -1,0 +1,8 @@
+100658	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+100658	PROKKA_02330	70	421	+	tet(34)	70-421/465	..======/=====.	2/2	75.48	72.24	ncbi	NG_048129.1	oxytetracycline resistance phosphoribosyltransferase domain-containing protein Tet(34)	TETRACYCLINE
+100658	PROKKA_04379	1	861	+	blaTEM-1	1-861/861	===============	0/0	100.00	100.00	ncbi	NG_050145.1	class A broad-spectrum beta-lactamase TEM-1	BETA-LACTAM
+100658	PROKKA_04609	1	780	+	aadA1	13-792/792	===============	0/0	98.48	97.95	ncbi	NG_052312.1	ANT(3'')-Ia family aminoglycoside nucleotidyltransferase AadA1	STREPTOMYCIN
+100658	PROKKA_04610	1	804	+	lnu(G)	1-804/804	===============	0/0	100.00	100.00	ncbi	NG_051760.1	lincosamide nucleotidyltransferase Lnu(G)	LINCOSAMIDE
+100658	PROKKA_04615	1	474	+	dfrA14	1-474/474	===============	0/0	100.00	100.00	ncbi	NG_047696.1	trimethoprim-resistant dihydrofolate reductase DfrA14	TRIMETHOPRIM
+100658	PROKKA_04654	14	1209	+	tet(A)	5-1200/1200	===============	0/0	99.67	100.00	ncbi	NG_048154.1	tetracycline efflux MFS transporter Tet(A)	TETRACYCLINE
+100658	PROKKA_04668	1	816	+	aph(3')-Ia	1-816/816	===============	0/0	100.00	100.00	ncbi	NG_047431.1	aminoglycoside O-phosphotransferase APH(3')-Ia	KANAMYCIN
