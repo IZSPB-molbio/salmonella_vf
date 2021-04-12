@@ -162,7 +162,7 @@ ui <- dashboardPage(
                     # mainPanel(
                     #     plotOutput("phy"
                     #     )
-                    fluidRow(box(plotOutput("phy"), width = 8))               
+                    fluidRow(box(plotOutput("phy"), width = 12))               
                     )
         ),
     )
@@ -343,7 +343,7 @@ server <- function(input, output) {
                   rownames = FALSE
         )
     })
-    output$phy <- renderPlot({reactive({ggtree(phy)})}, width = "auto")
+    output$phy <- renderPlot(ggtree(phy), width = "auto")
 }
 
 shinyApp(ui, server)
