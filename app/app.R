@@ -115,7 +115,7 @@ ui <- dashboardPage(
                     # tags$li(img(src = "data/izs_logo.jpeg"),
                     #         class = "dropdown")
                     tags$li(a(href = 'http://www.izsfg.it',
-                              img(src = 'data/izs_logo.jpeg',
+                              img(src = "data/izs_logo.jpeg",
                                   title = "IZSPB", height = "60px"),
                               style = "padding-top:10px; padding-bottom:10px;"),
                             class = "dropdown")
@@ -152,9 +152,9 @@ ui <- dashboardPage(
                         )
                     ),
                     fluidRow(
-                        box(title = "Number of hits per sample (click on a cell to get more info in the table below!)",
+                        box(title = "Number of hits per sample (click on a cell to show details about the hits in the table below)",
                             plotlyOutput("heatmap"), height = 860),
-                        box(title = "Number of resistance hits per sample",
+                        box(title = "Number of resistance hits per sample (click on a cell to display all hits for a cds)",
                             plotlyOutput("heatmap.compounds"), height = 860),
                         fluidRow(
                             box(DT::dataTableOutput("heatmap.genes")),
