@@ -1,6 +1,6 @@
 This dashboard offers a graphical overview of genome screening for antimicrobial resistance and virulence genes in *Salmonella enterica* isolates from serovars Infantis and Napoli, as performed with [ABRicate](https://github.com/tseemann/abricate).
 
-The **ABRicate: overview** section offers a summary of resistance and virulence genes found in your genomes.
+The **ABRicate: overview of hits** and **ABRicate: overview of resistance and virulence** sections give a summary of resistance and virulence genes found in your genomes.
 
 The **ABRicate: results** section reports an interactive table with complete ABRicate results.
 
