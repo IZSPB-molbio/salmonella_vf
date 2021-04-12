@@ -111,18 +111,31 @@ phy <- ape::read.tree('data/pangenome/roary_1617111546/core_gene_alignment.tree.
 # getwd()
 # the actual shinyapp starts here
 ui <- dashboardPage(
-    dashboardHeader(title = "Salmonella virulence factors: dashboard"),
+    dashboardHeader(title = "Salmonella virulence factors: dashboard",
+                    # tags$li(img(src = "data/izs_logo.jpeg"),
+                    #         class = "dropdown")
+                    tags$li(a(href = 'http://www.izsfg.it',
+                              img(src = 'data/izs_logo.jpeg',
+                                  title = "IZSPB", height = "60px"),
+                              style = "padding-top:10px; padding-bottom:10px;"),
+                            class = "dropdown")
+                    ),
     dashboardSidebar(
         sidebarMenu(
-            menuItem("Overview", tabName = "overview", icon = icon("binoculars"),
-                     badgeLabel = "new", badgeColor = "green"),
-            menuItem("Results", icon = icon("th"), tabName = "results"),
-            menuItem("Phylogeny", icon = icon("th"), tabName = "phylogeny")
+            menuItem("Introduction", tabName = "intro", icon = icon("lightbulb")),
+            menuItem("ABRicate: overview", tabName = "overview", icon = icon("binoculars")),
+            menuItem("ABRicate: results", icon = icon("th"), tabName = "results"),
+            menuItem("Phylogeny", icon = icon("tree"), tabName = "phylogeny")
         )
     ),
     dashboardBody(
         # Boxes need to be put in a row (or column)
         tabItems(
+            tabItem(tabName = "intro", h2("Introduction"),
+                    fluidRow(
+                        column(12,
+                               includeMarkdown("data/introduction.md"))
+                    )),
             tabItem(tabName = "overview", h2("Overview of results"),
                     fluidRow(
                         box(# wanna align? https://stackoverflow.com/questions/29738975/how-to-align-a-group-of-checkboxgroupinput-in-r-shiny
@@ -162,7 +175,7 @@ ui <- dashboardPage(
                     # mainPanel(
                     #     plotOutput("phy"
                     #     )
-                    fluidRow(box(plotOutput("phy"), width = 12))               
+                    fluidRow(box(plotOutput("phy"), width = 12, height = "100%"))               
                     )
         ),
     )
@@ -343,7 +356,7 @@ server <- function(input, output) {
                   rownames = FALSE
         )
     })
-    output$phy <- renderPlot(ggtree(phy), width = "auto")
+    output$phy <- renderPlot(ggtree(phy) + geom_tiplab(size=3), width = "auto", height = "auto")
 }
 
 shinyApp(ui, server)

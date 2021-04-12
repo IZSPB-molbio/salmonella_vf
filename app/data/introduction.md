@@ -1,0 +1,1 @@
+This dashboard offers a graphical overview of genome screening for antimicrobial resistance and virulence genes in microbial genomes.
