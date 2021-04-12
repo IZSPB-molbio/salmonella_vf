@@ -123,9 +123,13 @@ ui <- dashboardPage(
     dashboardSidebar(
         sidebarMenu(
             menuItem("Introduction", tabName = "intro", icon = icon("lightbulb")),
-            menuItem("ABRicate: overview", tabName = "overview", icon = icon("binoculars")),
-            menuItem("ABRicate: results", icon = icon("th"), tabName = "results"),
+            menuItem("ABRicate", icon = icon("binoculars"),
+                     menuSubItem("ABRicate: overview", tabName = "overview", icon = icon("binoculars")),
+                     menuSubItem("ABRicate: results", icon = icon("th"), tabName = "results")),
             menuItem("Phylogeny", icon = icon("tree"), tabName = "phylogeny")
+            # menuItem("ABRicate: overview", tabName = "overview", icon = icon("binoculars")),
+            # menuItem("ABRicate: results", icon = icon("th"), tabName = "results"),
+            # menuItem("Phylogeny", icon = icon("tree"), tabName = "phylogeny")
         )
     ),
     dashboardBody(
