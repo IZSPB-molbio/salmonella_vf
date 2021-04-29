@@ -107,7 +107,38 @@ compound.counts <- abricate.results %>%
     group_by(isolate, compound, db) %>% count(compound) %>% ungroup() %>% subset(compound != "") #%>% dplyr::mutate(across(compound), factor)
 
 # phylogenetic tree
-phy <- ape::read.tree('data/pangenome/roary_1617111546/core_gene_alignment.tree.rooted.Svictoria.newick')
+phy <- ape::read.tree('data/pangenome/roary_210422/core_gene_alignment.tree.newick')
+
+## perform visual inspection to reroot the tree
+## https://www.biostars.org/p/332030/
+# plot(phy)
+# nodelabels()
+#
+# the rooting node is 59 (between S. typhimurium and S. enteritidis)
+phy2 <- ape::root(phy, node=59)
+
+# Read tree annotations
+metadata <- read.table("data/metadata.tsv", sep = "\t", stringsAsFactors = FALSE, header = TRUE)
+row.names(metadata) <- metadata$sample
+metadata.resistance <- metadata %>%
+                        select(9:ncol(.))
+
+# Plot tree with annotations
+# https://yulab-smu.top/treedata-book/chapter7.html?
+phy2.plot <- ggtree(phy2) + geom_tiplab(size=3, align = TRUE)
+plot_tree <- gheatmap(phy2.plot, metadata.resistance, 
+                      offset = 0.005, 
+                      width = 0.5, 
+                      font.size=3,
+                      colnames_angle=-45,
+                      colnames_position = "top",
+                      hjust = 1) + 
+                # scale_fill_manual(values = c("steelblue", "firebrick", "darkgreen", "yellow"), name="resistance")
+                scale_x_ggtree() +
+                scale_fill_manual(labels= c("R", "S", "NI"), 
+                                              values = c("steelblue", "firebrick", "darkgreen"), name="resistance") +
+                ylim(0,50)
+
 # getwd()
 # the actual shinyapp starts here
 ui <- dashboardPage(
@@ -414,7 +445,8 @@ server <- function(input, output) {
                   rownames = FALSE
         )
     })
-    output$phy <- renderPlot(ggtree(phy) + geom_tiplab(size=3), width = "auto", height = "auto")
+    # output$phy <- renderPlot(ggtree(phy2) + geom_tiplab(size=3), width = "auto", height = "auto") # plot_tree
+    output$phy <- renderPlot(plot_tree, width = "auto", height = "auto")
 }
 
 shinyApp(ui, server)

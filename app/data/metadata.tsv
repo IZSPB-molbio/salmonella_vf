@@ -1,0 +1,39 @@
+sample	location	year	sample type	species	subspecies	serotype	antigenic formula	ampicillin	azitromicin	cefotaxime	ceftazidime	chloramphenicol	ciprofloxacin	colistin	gentamicin	meropenem	nalidixic acid	sulfamethoxazole	tetraciclin	tigecycline	trimethoprim
+100535	Avellino	2020	meat	chicken/turkey	S. enterica subsp. enterica	S. Infantis	6,7:r:1,5	R	NI	S	S	R	R	S	S	S	R	NI	R	S	R
+111772	Avellino	2017	feces	human	S. enterica subsp. enterica	S. Napoli	9,12:l,z13:e,n,x	S	NI	S	S	S	S	R	S	S	S	NI	S	S	S
+49535	Avellino	2020	feed	NA	S. enterica subsp. enterica	S. Infantis	6,7:r:1,5	S	NI	S	S	S	S	S	S	S	S	NI	S	S	S
+27668	Avellino	2020	feed	NA	S. enterica subsp. enterica	S. Infantis	6,7:r:1,5	S	NI	S	S	S	S	S	S	S	S	NI	S	S	S
+94721	Avellino	2020	meat products	chicken	S. enterica subsp. enterica	S. Infantis	6,7:r:1,5	R	NI	S	S	R	R	S	S	S	R	NI	S	S	R
+94222	Benevento	2020	meat	chicken	S. enterica subsp. enterica	S. Infantis	6,7:r:1,5	R	NI	S	S	S	R	S	S	S	R	NI	R	S	R
+142725	Cosenza	2020	meat	chicken/turkey	S. enterica subsp. enterica	S. Infantis	6,7:r:1,5	R	NI	R	R	S	R	S	S	S	R	NI	R	S	R
+91549	Cosenza	2020	meat	chicken/turkey	S. enterica subsp. enterica	S. Infantis	6,7:r:1,5	R	NI	R	R	S	R	S	S	S	R	NI	R	S	R
+88982	Napoli	2020	meat	chicken	S. enterica subsp. enterica	S. Infantis	6,7:r:1,5	S	NI	S	S	S	R	S	S	S	R	NI	R	S	R
+97219	Napoli	2020	meat	chicken	S. enterica subsp. enterica	S. Infantis	6,7:r:1,5	R	NI	S	S	R	R	S	S	S	R	NI	S	S	R
+93702	Napoli	2020	meat	chicken	S. enterica subsp. enterica	S. Infantis	6,7:r:1,5	R	NI	S	S	R	R	S	S	S	R	NI	S	S	R
+79106	Napoli	2020	meat	chicken	S. enterica subsp. enterica	S. Infantis	6,7:R:1,5	S	NI	S	S	S	R	S	S	S	R	NI	S	S	R
+85877	Napoli	2020	meat	chicken/turkey	S. enterica subsp. enterica	S. Sandiego	4,5,12:eh:e,n,z15	S	NI	S	S	S	R	S	S	S	S	NI	R	S	T
+85427	Napoli	2020	meat	chicken/turkey	S. enterica subsp. enterica	S. Infantis	6,7:r:1,5	S	NI	S	S	S	R	S	S	S	R	NI	R	S	S
+136943	Napoli	2020	meat	chicken/turkey	S. enterica subsp. enterica	S. Infantis	6,7:r:1,5	R	NI	R	R	S	R	S	S	S	R	NI	R	S	R
+137426	Napoli	2020	meat	chicken/turkey	S. enterica subsp. enterica	S. Infantis	6,7:r:1,5	S	NI	S	S	S	R	S	S	S	R	NI	S	S	R
+132426	Napoli	2020	meat	chicken/turkey/pig	S. enterica subsp. enterica	S. Infantis	6,7:r:1,5	S	NI	S	S	S	R	S	S	S	R	NI	R	S	R
+32790	Napoli	2017	feces	human	S. enterica subsp. enterica	S. Napoli	9,12:l,z13:e,n,x	S	NI	S	S	S	S	S	S	S	S	NI	S	S	S
+102335	Napoli	2017	feces	human	S. enterica subsp. enterica	S. Napoli	9,12:l,z13:e,n,x	S	NI	S	S	S	S	S	S	S	S	NI	S	S	S
+102338	Napoli	2017	feces	human	S. enterica subsp. enterica	S. Napoli	9,12:l,z13:e,n,x	S	NI	S	S	S	S	S	S	S	S	NI	S	S	S
+102333	Napoli	2017	feces	human	S. enterica subsp. enterica	S. Infantis	6,7:r:1,5	S	NI	S	S	S	R	S	S	S	R	NI	R	S	R
+103504	Napoli	2018	feces	human	S. enterica subsp. enterica	S. Napoli	9,12:l,z13:e,n,x	S	NI	S	S	S	S	S	S	S	S	NI	S	S	S
+103477	Napoli	2018	feces	human	S. enterica subsp. enterica	S. Napoli	9,12:l,z13:e,n,x	S	NI	S	S	S	S	R	S	S	S	NI	S	S	S
+11514	Napoli	2019	feces	human	S. enterica subsp. enterica	S. Napoli	9,12:l,z13:e,n,x	S	NI	S	S	S	S	R	S	S	S	NI	S	S	S
+113879	Napoli	2019	feces	human	S. enterica subsp. enterica	S. Napoli	9,12:l,z13:e,n,x	R	NI	S	S	R	S	S	S	S	S	NI	R	S	S
+113877	Napoli	2019	feces	human	S. enterica subsp. enterica	S. Napoli	9,12:l,z13:e,n,x	S	NI	S	S	S	S	S	S	S	S	NI	S	S	S
+94831	Napoli	2019	organ	dog	S. enterica subsp. enterica	S. Napoli	9,12:l,z13:e,n,x	S	NI	S	S	S	S	S	S	S	S	NI	S	S	S
+145704	Napoli	2020	meat products	turkey	S. enterica subsp. enterica	S. Infantis	6,7:r:1,5	R	NI	S	S	S	R	S	S	S	R	NI	R	S	R
+100658	Napoli	2020	meat products	pig	S. enterica subsp. enterica	S. Infantis	6,7:r:1,5	R	NI	S	S	S	R	S	S	S	R	NI	S	S	R
+92044	Napoli	2020	egg	chicken	S. enterica subsp. enterica	S. Infantis	6,7:r:1,5	R	NI	R	R	R	R	S	S	S	R	NI	S	S	R
+138448	Salerno	2020	meat	chicken/turkey	S. enterica subsp. enterica	S. Infantis	6,7:r:1,5	S	NI	S	S	S	R	S	S	S	R	NI	R	S	R
+97504	Salerno	2017	feces	human	S. enterica subsp. enterica	S. Napoli	9,12:l,z13:e,n,x	S	NI	S	S	S	S	R	S	S	S	NI	S	S	S
+106981	Salerno	2019	feces	human	S. enterica subsp. enterica	S. Napoli	9,12:l,z13:e,n,x	S	NI	S	S	S	S	S	S	S	S	NI	S	S	S
+99339	Salerno	2019	feces	human	S. enterica subsp. enterica	S. Napoli	9,12:l,z13:e,n,x	S	NI	S	S	S	S	S	S	S	S	NI	S	S	S
+99341	Salerno	2019	feces	human	S. enterica subsp. enterica	S. Napoli	9,12:l,z13:e,n,x	S	NI	S	S	S	S	S	S	S	S	NI	S	S	S
+113891	Salerno	2017	organ	boar	S. enterica subsp. enterica	S. Napoli	9,12:l,z13:e,n,x	S	NI	S	S	S	S	R	S	S	S	NI	S	S	S
+141266	Salerno	2017	organ	boar	S. enterica subsp. enterica	S. Napoli	9,12:l,z13:e,n,x	S	NI	S	S	S	R	S	S	S	S	NI	S	S	S
+27431	Vibo Valentia	2017	organ	wild mammal	S. enterica subsp. enterica	S. Napoli	9,12:l,z13:e,n,x	S	NI	S	S	S	S	S	S	S	S	NI	S	S	S

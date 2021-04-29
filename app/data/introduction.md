@@ -10,7 +10,6 @@ The **Phylogeny** section shows a cgSNP-based phylogenetic tree including the fo
 - Enteritidis
 - Typhimurium
 - Virchow
-- Victoria (outgroup)
 
 The multiple sequence alignment used to compute the phylogenetic tree was calculated through the [Roary](https://sanger-pathogens.github.io/Roary/) pangenome pipeline. The phylogenetic tree was calculated with [FastTree](http://www.microbesonline.org/fasttree/).
 
