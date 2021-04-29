@@ -125,8 +125,10 @@ metadata.resistance <- metadata %>%
 
 # Plot tree with annotations
 # https://yulab-smu.top/treedata-book/chapter7.html?
-phy2.plot <- ggtree(phy2) + geom_tiplab(size=3, align = TRUE)
-plot_tree <- gheatmap(phy2.plot, metadata.resistance, 
+phy2.plot <- ggtree(phy2) %<+% metadata
+phy2.plot.2 <- phy2.plot + geom_tiplab(size=3, align = TRUE) +
+    geom_tippoint(aes(color=species), size=3)
+plot_tree <- gheatmap(phy2.plot.2, metadata.resistance, 
                       offset = 0.005, 
                       width = 0.5, 
                       font.size=3,
@@ -138,7 +140,7 @@ plot_tree <- gheatmap(phy2.plot, metadata.resistance,
                 scale_fill_manual(labels= c("R", "S", "NI"), 
                                               values = c("steelblue", "firebrick", "darkgreen"), name="resistance") +
                 ylim(0,50)
-
+# plot_tree
 # getwd()
 # the actual shinyapp starts here
 ui <- dashboardPage(
@@ -264,7 +266,8 @@ ui <- dashboardPage(
                     # mainPanel(
                     #     plotOutput("phy"
                     #     )
-                    fluidRow(box(plotOutput("phy"), width = 12, height = "100%"))               
+                    #fillPage(plotOutput("plot", height = "100%"))
+                    fillPage(plotOutput("phy", height = "600px"))          
                     )
         ),
     )
@@ -446,7 +449,8 @@ server <- function(input, output) {
         )
     })
     # output$phy <- renderPlot(ggtree(phy2) + geom_tiplab(size=3), width = "auto", height = "auto") # plot_tree
-    output$phy <- renderPlot(plot_tree, width = "auto", height = "auto")
+    # output$phy <- renderPlot(plot_tree, width = "auto", height = "auto")
+    output$phy <- renderPlot(plot_tree)
 }
 
 shinyApp(ui, server)
